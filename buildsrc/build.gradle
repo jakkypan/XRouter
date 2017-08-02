@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+
+dependencies {
+    compile gradleApi()//gradle sdk
+    compile localGroovy()//groovy sdk
+
+    // 这个以project引用不行
+//    compile files("../android-guard")
+}
+
+repositories {
+    jcenter()
+}

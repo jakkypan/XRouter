@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "schema": "xrouter",
+  "loginActivity": "com.xrouter.demo.LoginActivity",
+  "mappings": [
+    {
+      "host": "login",
+      "fragment": "com.xrouter.demo.LoginFragment",
+      "activity": "com.xrouter.demo.LoginActivity",
+      "isLogin": 0
+    },
+    {
+      "host": "sub",
+      "fragment": "",
+      "activity": "com.xrouter.demo.SubActivity",
+      "isLogin": 0
+    },
+    {
+      "host": "sub2",
+      "fragment": "com.xrouter.demo.Sub2Fragment",
+      "activity": "com.xrouter.demo.SubActivity",
+      "isLogin": 1
+    },
+    {
+      "host": "second",
+      "fragment": "com.xrouter.demo.SecondFrament",
+      "activity": "",
+      "isLogin": 0
+    },
+    {
+      "host": "webview",
+      "fragment": "com.xrouter.demo.WebFragment",
+      "activity": "",
+      "isLogin": 0
+    }
+  ]
+}

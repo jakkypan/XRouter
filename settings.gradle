@@ -1,0 +1,3 @@
+include ':app', ':android-guard', ':android-plugin', ':buildsrc', ':android-router'
+
+//project(':android-guard').projectDir = new File('android-guard')
